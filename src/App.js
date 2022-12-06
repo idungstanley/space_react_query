@@ -5,7 +5,7 @@ import People from './components/People'
 import Planets from './components/Planets'
 import { QueryClient, QueryClientProvider } from 'react-query'
 function App() {
-  const [page, setPage] = useState('planets')
+  const [page, setPage] = useState('planet')
   const queryClient = new QueryClient()
   return (
     <QueryClientProvider client={queryClient}>
